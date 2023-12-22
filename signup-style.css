@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/signin-bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+.signin input{
+    flex: 1;
+    border: none;
+    height: 50%;
+    width: 250%;
+    background: #333;
+    color: #fff;
+    padding: 30px 50px 10px 40px;
+    /* outline: 0;
+    margin-left: 550px;
+    */
+
+    
+}
+.signin button{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 600px;
+    align-items: center;
+    cursor: pointer;
+   
+}
+
